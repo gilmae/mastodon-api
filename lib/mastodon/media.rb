@@ -15,6 +15,7 @@ module Mastodon
 
     def initialize(attributes = {})
       attributes.fetch('id')
+      super
     end
   end
 end

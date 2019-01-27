@@ -11,11 +11,11 @@ module Mastodon
     end
 
     def patch
-      0
+      1
     end
 
     def pre
-      nil
+      "fork"
     end
 
     def to_a
